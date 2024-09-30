@@ -1,0 +1,134 @@
+h1{
+    text-align:center;
+    font-size:64px;
+}
+.flex-container{
+    justify-content:center; 
+    display:flex;
+    grid-gap:5px;
+    padding:50px;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+
+fieldset{
+    border:none;
+}
+
+.flex-item{
+    background-color: #a7c1e9;
+    padding:20px;
+    border-radius:10px;
+    font-size:32px;
+    width:75%;
+    text-align: center;
+
+}
+
+.flex-item:hover{
+    background-color: chocolate;
+}
+.flex-nature{
+    justify-content:center; 
+    display:flex;
+    grid-gap: 30px;
+    padding:10px;
+    flex-direction: row;
+    margin:50;
+}
+.nature-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  header{
+    padding:20;
+    display:flex;
+    justify-content:center;
+    font-size:48px;
+    color:blue;
+    font-family: fantasy;
+    
+  }
+
+  body{
+    background-color:aliceblue;
+  }
+
+  
+  .main1{
+    justify-content:center; 
+    display:flex;
+    flex-direction:column;
+    grid-gap:5px;
+    padding:10px;
+    flex-direction: column;
+    border-radius: 5px;
+    width:35%;
+}
+
+.content{
+    background-color: #b2b1eb;
+    padding:2cqh;
+    border-radius:10px;
+    font-size:24px;
+    width: 25%;
+    text-align:center;
+    margin:1px;
+    height:15px;
+    color:aqua;
+    
+    
+}
+div>content{
+    color: coral;
+    font-style: italic;
+}
+
+.title-item{
+    font-size:32px;
+    text-align: left;
+}
+
+
+
+.content:hover{
+    background-color: blanchedalmond;
+
+}
+
+.flex-footer{
+    justify-content:center; 
+    display:flex;
+    grid-gap:5px;
+    padding:50px;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-bottom:15px;
+    flex-grow: initial;
+}
+
+.flex-foot{
+    background-color: #1465df;
+    padding:5px;
+    border-radius:10px;
+    font-size:32px;
+    width:75%;
+    text-align: center;
+    color:white;
+    margin-top: -50px;
+}
+
+.flex-foot:hover{
+    background-color: cyan;
+    border-radius: 25px;
+    color:rgb(16, 231, 16)
+}
+
+
+
+@media(max-width:400px){
+    body{width:100%
+    }
+}

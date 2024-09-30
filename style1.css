@@ -1,0 +1,90 @@
+
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 64px;
+    color:royalblue;
+}
+h3{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    color:royalblue;
+}
+
+body{
+    background-color: azure;
+    }
+
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:20px;
+    padding:20px;
+    font-size: small;
+    }
+
+    
+    
+
+.grid-item{
+    background-color:#f0f3f5;
+    padding:20px;
+    border-radius:20px;
+    text-align: center;
+    font-size: 36px;
+
+    justify-content: center;
+
+}
+
+.footer{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:none;
+    padding:20px;
+
+    align-items: center;
+    grid-template-rows:10%;
+    justify-content: center;
+    margin-left: 20%;
+    }
+
+.item{
+    background-color:#f0f3f5;
+    padding:20px;
+    border-radius:10px;
+    text-align: center;
+    font-size: 25px;
+    width:30%;
+    
+    
+    
+}
+
+
+@media screen and (max-width:768px){
+    .grid-container,h1,h3,.grid-item,.footer,.item{
+        grid-template-columns:repeat(2,1fr);
+        
+    }
+}
+
+@media sreenn and (max-width:400px){
+    .grid-container,h1,h3,.grid-item,.footer,.item{
+        grid-template-columns: 1fr;
+    }
+}
+
+.grid-item:hover{
+    background-color: blueviolet;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: darksalmon;
+    color:blue;
+    cursor: pointer;
+}
